@@ -15,6 +15,31 @@ To install Git for macOS : [https://git-scm.com/download/mac](https://git-scm.co
 
 For more information on installing Git : [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
+To use the bash terminal, Git needs to be installed. 
+
 ### Remote Connecting
 
-Once the software is downloaded, 
+To connect to the remote server, the bash terminal needs to be acessed. 
+
+1. Acess the command palette by using `Ctrl` + `Shift` + `P`
+2. In the command palette, type `Select Default Profile`
+3. From the command palette, select `Git Bash`
+4. Once selected, you can acess the bash terminal in the terminal window by pressing the `+` button
+
+Once your environment is set up, you can find your ETS account here, [ETS Account](https://sdacs.ucsd.edu/~icc/index.php), which provides the necessary resources to acessing the remote server. In order to access the server, you also need your password. [Reset your password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+
+Once you have your username and password, you can now access the remote server.
+
+In the bash terminal, type `ssh` followed by your `username` and `@ieng6.ucsd.edu`
+
+It should look something like this: `ssh cs15lwi23zzz@ieng6.ucsd.edu` where `zzz` is your specific account.
+
+If this is your first time connecting to the server, the command prompt will ask if you want to continue connecting.
+
+If you type yes, the RSA will be added to a list of known hosts on your computer.
+
+Retype the `ssh` command and log in with your password.
+
+
+
+
