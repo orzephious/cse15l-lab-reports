@@ -60,5 +60,7 @@ For example, you can `cd` into the `..` directory and type `ls` see the users on
 
 If you find that your terminal is too cluttered frum typing nonsensical commands, you can `clear` it!
 
+Once you're done playing around the remote server, you can log out by using `ctrl` + `D` and typing `exit`
+
 
 
